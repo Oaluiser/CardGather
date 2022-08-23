@@ -50,7 +50,7 @@ a:hover {
 }
 
 main {
-    padding: 50px;
+    padding: 25px 50px;
 }
 
 #main-container {
@@ -64,6 +64,11 @@ main {
     margin: auto;
 }
 
+#colection-header {
+    color: #556273;
+    margin: 10px;
+    padding: 5px;
+}
 
 .card-container {
     display: inline-block;
@@ -71,16 +76,14 @@ main {
     border-radius: 10px;
     backdrop-filter: blur(5px);
     box-shadow: 0px 5px 5px 0px #00000033, 0px 0px 0px 1px #f2f2f280 inset;
-    width: 189px;
-    height: 260px;
-    margin: 12.5px;
+    margin: 10px;
+    padding: 5px;
 }
 
 
 .card {
-    width: 179px;
-    height: 250px;
-    margin: 5px;
+    display: block;
+    max-width: 179px;
 }
 
 #home {
