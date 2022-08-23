@@ -29,9 +29,13 @@ header {
 }
 
 main {
+    padding: 25px;
+}
+
+#main-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-image: linear-gradient(to right bottom, #F2F2F2b3, #F2F2F21a);
     border-style: solid;
     border-width: 1px;
@@ -39,12 +43,12 @@ main {
     border-radius: 10px;
     backdrop-filter: blur(50px);
     box-shadow: 0px 5px 5px 0px #00000033;
-    margin: 25px;
+    padding: 12.5px;
+    max-width: 1800px;
+    margin: auto;
 }
 
 .card-container {
-    width: 189px;
-    height: 260px;
     background-image: linear-gradient(to right bottom, #F2F2F2b3, #F2F2F21a);
     border-style: solid;
     border-width: 1px;
@@ -52,8 +56,11 @@ main {
     border-radius: 10px;
     backdrop-filter: blur(50px);
     box-shadow: 0px 5px 5px 0px #00000033;
-    margin: 25px;
+    width: 189px;
+    height: 260px;
+    margin: 12.5px;
 }
+
 .card {
     width: 179px;
     height: 250px;
