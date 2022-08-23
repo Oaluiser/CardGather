@@ -34,11 +34,15 @@ header {
     color: #556273;
 }
 
-nav > a {
+a {
     color: #556273;
     padding: 0px 1vw;
     font-weight: 700;
     font-size: 1.1em;
+}
+
+a:hover {
+    color: #f2f2f2;
 }
 
 main {
