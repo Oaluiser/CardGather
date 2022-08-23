@@ -31,15 +31,15 @@ header {
 main {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around 25px;
+    justify-content: space-around;
     background-image: linear-gradient(to right bottom, #F2F2F2b3, #F2F2F21a);
     border-style: solid;
     border-width: 1px;
     border-color: #f2f2f280;
     border-radius: 10px;
-    margin: 25px 50px 0px 50px;
     backdrop-filter: blur(50px);
     box-shadow: 0px 5px 5px 0px #00000033;
+    margin: 25px;
 }
 
 .card-container {
@@ -52,11 +52,10 @@ main {
     border-radius: 10px;
     backdrop-filter: blur(50px);
     box-shadow: 0px 5px 5px 0px #00000033;
-    margin: max(25px);
+    margin: 25px;
 }
 .card {
     width: 179px;
     height: 250px;
-    margin-top: 5px;
-    margin-left: 5px;
+    margin: 5px;
 }
