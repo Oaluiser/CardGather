@@ -52,14 +52,14 @@ ul {
     list-style-type: none;
 }
 
-a {
+.button > a {
     color: #556273;
     padding: 0px 1vw;
     font-weight: 700;
     font-size: 1.1em;
 }
 
-a:hover {
+.button > a:hover {
     color: #f2f2f2;
 }
 
