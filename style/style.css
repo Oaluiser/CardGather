@@ -102,17 +102,18 @@ main {
     vertical-align: middle;
     color: #556273;
     font-weight: 600;
-    background-color: #f2f2f2e6;
+    background-color: #f2f2f2;
     border-radius: 0px 0px 10px 10px;
     backdrop-filter: blur(5px);
     box-shadow: 0px 5px 5px 0px #00000033, 0px 0px 0px 1px #f2f2f280 inset;
-    padding: 10px;
-    max-width: 169px;
+    padding: 5px;
+    max-width: 179px;
+    font-size: 0.9em;
 }
 
 #home {
     text-align: center;
-    background-color: #f2f2f2e6;
+    background-color: #f2f2f2;
     border-radius: 10px;
     backdrop-filter: blur(5px);
     box-shadow: 0px 5px 5px 0px #00000033, 0px 0px 0px 1px #f2f2f280 inset;
@@ -120,11 +121,11 @@ main {
     max-width: 1309px;
     margin: auto;
     color: #556273;
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
 }
 
 #nakama {
-    max-height: 75vh;
+    max-height: 65vh;
     max-width: 45vw;
 }
