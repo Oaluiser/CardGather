@@ -46,7 +46,7 @@
 
 }
 
-@media screen and (min-width: 501px) and (max-width: 999px) {
+@media screen and (min-width: 501px) and (max-width: 1199px) {
     .card-container {
         background-image: linear-gradient(to right bottom, #f2f2f280, #f2f2f21a);
         border-radius: 20px 20px 0px 0px;
@@ -93,7 +93,7 @@
     }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
     main {
         display: grid;
         grid-template-columns: 50% 50%;
