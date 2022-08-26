@@ -40,8 +40,7 @@ header {
 .button {
     display: inline-block;
     text-align: center;
-    padding: 5px;
-    margin: 0px 10px;
+    padding: 0px;
 }
 
 ul {

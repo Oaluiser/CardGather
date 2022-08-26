@@ -1,37 +1,153 @@
-main {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    max-width:  1309px;
-    margin: 0 auto;
+@media screen and (max-width: 500px) {
+    .card-container {
+        background-image: linear-gradient(to right bottom, #f2f2f280, #f2f2f21a);
+        border-radius: 20px 20px 0px 0px;
+        backdrop-filter: blur(5px);
+        box-shadow: 0px 5px 5px 0px #00000033, 0px 0px 0px 1px #f2f2f280 inset;
+        text-align: center;
+    }
+    
+    .card {
+        width: 85%;
+        margin: 5% 0px;
+    }
+    
+    #container-white {
+        background-color: #ffffffe6;
+        border-radius: 0px 0px 20px 20px;
+        backdrop-filter: blur(5px);
+        box-shadow: 0px 5px 5px 0px #00000033, 0px 0px 0px 1px #f2f2f280 inset;
+        padding: 5%;
+    }
+    
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    div > h2 {
+        font-size: 1em;
+        font-weight: 800;
+        width: 100%;
+        padding: 0px 5%;
+    }
+    
+    .tworow {
+        width: 100%;
+        padding: 0px 0px 5% 5%;
+        margin-bottom: 5%;
+        border-bottom: 1px solid black;
+    }
+
+    .onerow {
+        width: 100%;
+        padding: 0px 5%;
+        margin-bottom: 5%;
+        text-align: justify;
+    }
 }
 
-.card-container {
-    background-image: linear-gradient(to right bottom, #f2f2f280, #f2f2f21a);
-    border-radius: 20px 0px 0px 20px;
-    backdrop-filter: blur(5px);
-    box-shadow: 0px 5px 5px 0px #00000033, 0px 0px 0px 1px #f2f2f280 inset;
-    text-align: center;
+@media screen and (min-width: 501px) and (max-width: 799px) {
+    .card-container {
+        background-image: linear-gradient(to right bottom, #f2f2f280, #f2f2f21a);
+        border-radius: 20px 20px 0px 0px;
+        backdrop-filter: blur(5px);
+        box-shadow: 0px 5px 5px 0px #00000033, 0px 0px 0px 1px #f2f2f280 inset;
+        text-align: center;
+    }
+    
+    .card {
+        width: 85%;
+        margin: 5% 0px;
+    }
+    
+    #container-white {
+        background-color: #ffffffe6;
+        border-radius: 0px 0px 20px 20px;
+        backdrop-filter: blur(5px);
+        box-shadow: 0px 5px 5px 0px #00000033, 0px 0px 0px 1px #f2f2f280 inset;
+        padding: 5%;
+    }
+    
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 5%;
+        margin-bottom: 5%;
+        border-bottom: 1px solid black;
+    }
+
+    div > h2 {
+        font-size: 1em;
+        font-weight: 800;
+        width: 20%;
+        padding: 0px 5%;
+    }
+    
+    .tworow {
+        width: 20%;
+    }
+
+    .onerow {
+        width: 100%;
+        padding: 0px 5%;
+        text-align: justify;
+    }
 }
 
-.card {
-    width: 85%;
-    margin: 5% 0px;
-}
+@media screen and (min-width: 800px) {
+    main {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        max-width:  1309px;
+        margin: 0 auto;
+    }
 
-#container-white {
-    background-color: #ffffffe6;
-    border-radius: 0px 20px 20px 0px;
-    backdrop-filter: blur(5px);
-    box-shadow: 0px 5px 5px 0px #00000033, 0px 0px 0px 1px #f2f2f280 inset;
-    padding: 5%;
-}
+    .card-container {
+        background-image: linear-gradient(to right bottom, #f2f2f280, #f2f2f21a);
+        border-radius: 20px 0px 0px 20px;
+        backdrop-filter: blur(5px);
+        box-shadow: 0px 5px 5px 0px #00000033, 0px 0px 0px 1px #f2f2f280 inset;
+        text-align: center;
+    }
+    
+    .card {
+        width: 85%;
+        margin: 5% 0px;
+    }
+    
+    #container-white {
+        background-color: #ffffffe6;
+        border-radius: 0px 20px 20px 0px;
+        backdrop-filter: blur(5px);
+        box-shadow: 0px 5px 5px 0px #00000033, 0px 0px 0px 1px #f2f2f280 inset;
+        padding: 5%;
+    }
+    
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 5%;
+        margin-bottom: 5%;
+        border-bottom: 1px solid black;
+    }
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    padding-bottom: 5%;
-    margin-bottom: 5%;
-    border-bottom: 1px solid black;
+    div > h2 {
+        font-size: 1em;
+        font-weight: 800;
+        width: 20%;
+        padding: 0px 5%;
+    }
+    
+    .tworow {
+        width: 20%;
+    }
+
+    .onerow {
+        width: 100%;
+        padding: 0px 5%;
+        text-align: justify;
+    }
 }
 
 #name {
@@ -42,23 +158,6 @@ main {
     text-align: center;
     font-size: 0.8em;
     margin-bottom: 10%;
-}
-
-div > h2 {
-    font-size: 1em;
-    font-weight: 800;
-    width: 20%;
-    padding: 0px 5%;
-}
-
-.tworow {
-    width: 20%;
-}
-
-.onerow {
-    width: 100%;
-    padding: 0px 5%;
-    text-align: justify;
 }
 
 #effect {
