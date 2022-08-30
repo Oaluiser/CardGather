@@ -192,3 +192,38 @@
     color: white;
     vertical-align: center;
 }
+
+.black {
+    background-color: #201313;
+    color: white;
+    padding: 0px 5px;
+    border-radius: 5px;
+}
+
+.blue {
+    background-color: #0370ab;
+    color: white;
+    padding: 0px 5px;
+    border-radius: 5px;
+}
+
+.pink {
+    background-color: #dc4564;
+    color: white;
+    padding: 0px 5px;
+    border-radius: 5px;
+}
+
+.orange {
+    background-color: #e07621;
+    color: white;
+    padding: 0px 5px;
+    border-radius: 5px;
+}
+
+.red {
+    background-color: #e9010d;
+    color: white;
+    padding: 0px 5px;
+    border-radius: 5px;
+}
