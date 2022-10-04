@@ -38,8 +38,8 @@ header {
     color: #556273;
 }
 
-#logo {
-    height: 30px;
+header > #logo {
+    height: 40px;
 }
 
 .button {
