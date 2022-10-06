@@ -10,6 +10,27 @@
 #D9D9D9
 */
 
+@media screen and (max-width: 800px) {
+    header {
+        flex-direction: column;
+    }
+
+    header > a > #logo {
+        width: 200px;
+        margin: 10px;
+    }
+
+    .button {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 801px) {
+    header {
+        height: 50px;
+    }
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -28,17 +49,16 @@ body {
 header {
     display: flex;
     text-align: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     background-color: #f2f2f280;
     width: 100%;
-    height: 50px;
     backdrop-filter: blur(5px);
     box-shadow: 0px 5px 5px 0px #00000033;
     color: #556273;
 }
 
-header > #logo {
+header > a > #logo {
     height: 40px;
 }
 
@@ -46,6 +66,8 @@ header > #logo {
     display: inline-block;
     text-align: center;
     padding: 0px;
+    margin-right: 10px;
+    margin-right: 10px;
 }
 
 ul {
