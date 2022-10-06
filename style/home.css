@@ -1,3 +1,186 @@
+@media screen and (max-width: 500px) {
+    #firstsection {
+        text-align: center;
+    }
+
+    h1 {
+        display: inline;
+    }
+
+    #text > p {
+        width: 90%;
+        margin: 25px auto;
+        text-align: center;
+    }
+
+    #homeimg {
+        text-align: center;
+    }
+
+    #homeimg > img {
+        width: 80vw;
+    }
+
+    .homebutton {
+        width: 80%;
+        font-size: 7vw;
+    }
+
+    #secondsection > h1 {
+        font-size: 10vw;
+    }
+    
+    #secondsectioncontainer > img {
+        width: 80%;
+        margin: 50px auto;
+    }    
+
+    #secondsectioncontainer > p {
+        width: 95%;
+    }
+
+    #thirdsection {
+        padding: 25px;
+        padding-top: 100px;
+    }
+
+    #thirdsection > h1 {
+        font-size: 10vw;
+    }
+
+    #roadmapcontainer > p {
+        font-size: 5vw;
+    }
+
+    #roadmapcontainer {
+        margin-top: 25px;
+    }
+
+    
+}
+
+@media screen and (min-width: 501px) and (max-width: 1199px) {
+    #firstsection {
+        text-align: center;
+    }
+
+    h1 {
+        display: inline;
+    }
+
+
+    #text > p {
+        width: 90%;
+        margin: 25px auto;
+        text-align: center;
+    }
+
+    #homeimg {
+        margin: 25px 0px;
+    }
+
+    .homebutton {
+        width: 35%;
+        font-size: 4.5vw;
+    }
+    
+    #secondsection > h1 {
+        font-size: 3em;
+    }
+
+    #secondsectioncontainer > img {
+        width: 90%;
+        margin: 50px auto;
+    }
+    
+    #secondsectioncontainer > p {
+        width: 90%;
+    }
+
+    #thirdsection {
+        padding: 25px;
+        padding-top: 100px;
+    }
+
+    #thirdsection > h1 {
+        font-size: 3em;
+    }
+
+    #roadmapcontainer > p {
+        font-size: 2em;
+        margin-bottom: 10px;
+    }
+
+    #roadmapcontainer {
+        margin-top: 25px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #firstsection {
+        position: relative;
+        z-index: 2;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #ffffffe6;
+        word-break: break-word;
+        backdrop-filter: blur(5px);
+        box-shadow: 0px 5px 5px 0px #00000033, 0px 0px 0px 1px #f2f2f280 inset;
+        padding: 25px;
+        border-radius: 75px;
+        margin: auto;
+        margin-top: 25px;
+        color: #556273;
+        max-width: 1309px;
+        height: 70vh;
+    }
+
+    h1 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 4.5em;
+    }
+
+    h2 {
+        font-size: 1.6em;
+        margin-bottom: 2%;
+    }
+
+    .homedescription{
+        text-align: justify;
+        margin-bottom: 2%;
+        max-width: 293px;
+    }
+
+    #secondsection > h1 {
+        font-size: 3em;
+    }
+
+    #secondsectioncontainer > img {
+        width: 60%;
+    }
+    
+    #secondsectioncontainer > p {
+        width: 30%;
+    }
+
+    #thirdsection {
+        padding: 25px;
+        padding-top: 75px;
+    }
+
+    #roadmapcontainer > p {
+        font-size: 2em;
+        margin-bottom: 10px;
+    }
+
+    .homebutton {
+        width: 35%;
+        font-size: 2em;
+    }
+}
+
 main {
     padding: 0px;
 }
@@ -5,10 +188,6 @@ main {
 #firstsection {
     position: relative;
     z-index: 2;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
     background-color: #ffffffe6;
     word-break: break-word;
     backdrop-filter: blur(5px);
@@ -18,23 +197,19 @@ main {
     margin: auto;
     margin-top: 25px;
     color: #556273;
-    max-width: 1309px;
 }
 
 h1 {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 4.5em;
 }
 
 h2 {
-    font-size: 1.6em;
     margin-bottom: 2%;
 }
 
 .homedescription{
     text-align: justify;
     margin-bottom: 2%;
-    max-width: 293px;
 }
 
 #buttoncontainer {
@@ -59,14 +234,11 @@ h2 {
 .homebutton {
     margin-top: 25px;
     padding: 25px;
-    width: 35%;
     background-color: #ffffffe6;
     box-shadow: 0px 5px 5px 0px #00000033, 0px 0px 0px 1px #f2f2f280 inset;
     border-radius: 75px;
     color: #556273;
     font-weight: bolder;
-    font-size: 2em;
-    
 }
 
 .homebutton:hover {
@@ -89,7 +261,6 @@ h2 {
 
 #secondsection > h1 {
     margin: 50px 0px;
-    font-size: 3em;
     text-transform: uppercase;
 }
 
@@ -100,14 +271,6 @@ h2 {
     align-items: center;
 }
 
-#secondsectioncontainer > img {
-    width: 60%;
-}
-
-#secondsectioncontainer > p {
-    width: 30%;
-}
-
 #thirdsection {
     position: relative;
     background-image: linear-gradient(to right bottom, #f2f2f280, #f2f2f21a);
@@ -115,17 +278,14 @@ h2 {
     margin-top: -75px;
     z-index: 1;
     backdrop-filter: blur(5px);
-    padding: 25px;
-    padding-top: 75px;
     color: #556273;
     max-width: 1309px;
+    text-align: center;
 }
 
 #thirdsection > h1 {
     margin: 50px 0px;
-    font-size: 3em;
     text-transform: uppercase;
-    text-align: center;
 }
 
 #roadmapcontainer {
@@ -134,7 +294,6 @@ h2 {
 }
 
 #roadmapcontainer > p {
-    font-size: 2em;
     margin-bottom: 10px;
 }
 
@@ -153,6 +312,7 @@ h2 {
     align-self: flex-end;
     margin-right: -12.5px;
     padding: 5px;
+    text-align: left;
 }
 
 #roadmapdone {
