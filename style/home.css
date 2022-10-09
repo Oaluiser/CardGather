@@ -207,6 +207,7 @@ h2 {
     backdrop-filter: blur(5px);
     padding: 25px;
     padding-top: 25px;
+    padding-bottom: 100px;
     margin: auto;
     color: #556273;
     max-width: 1309px;
@@ -224,10 +225,18 @@ h2 {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    padding-bottom: 100px;
+    padding-bottom: 75px;
 }
 
-#secondsection > img {
+#thirdsection {
+    text-align: center;
+}
+
+#thirdsection > img {
+    position: relative;
+    z-index: 2;
+    bottom: 150px;
     width: 100%;
-    max-width: 800px;
+    max-width: 1359px;
+    margin-bottom: -150px;
 }
